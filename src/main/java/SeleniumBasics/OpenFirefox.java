@@ -11,6 +11,7 @@ public class OpenFirefox {
 				
 				String title = driver.getTitle();
 				System.out.println("Page Title: "+ title);
+				System.out.println("Page Title Printed");
 				
 				if(title.equals("Your Store"))
 				{
